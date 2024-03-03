@@ -2,7 +2,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import Settings from '../views/Settings.vue';
+import Setting from '../views/Setting.vue';
 
 Vue.use(VueRouter);
 
@@ -14,7 +14,7 @@ const routes = [
   },
   {
     path: '/setting',
-    component: Settings
+    component: Setting
   },
 ];
 
