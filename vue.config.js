@@ -1,6 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 
 module.exports = defineConfig({
-  transpileDependencies: true,
+  transpileDependencies: false,
   publicPath: '/Interview-Copilot-main/' // Set publicPath to repository name
 })
