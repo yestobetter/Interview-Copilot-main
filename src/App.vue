@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <el-menu :default-active="$router.currentRoute.path" mode="horizontal" :router="true">
+    <el-menu :default-active="$router.currentRoute.path" mode="horizontal" :router="false">
       <el-menu-item index="/">AI Interview Assistant</el-menu-item>
       <el-menu-item index="/setting">Setting</el-menu-item>
     </el-menu>
